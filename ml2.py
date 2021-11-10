@@ -49,6 +49,9 @@ axes = sns.scatterplot(data = nyc,
 
 axes.set_ylim(10, 70)
 
+import matplotlib.pyplot as plt
+plt.show()
+
 import numpy as np 
 
 x = np.array([min(nyc.Date.values), max(nyc.Date.values)])
